@@ -104,9 +104,31 @@
 
 (terpri)
 
+#||
+    21) Определите функцию, удаляющую из списка первое вхождение данного элемента на верхнем уровне.
+||#
+
+(print "Лабораторная 21")
+
+(defun removeFirst (num list)
+    ((lambda (elemement) (and (setq first (car elemement)) (setq last (cdr elemement)))) list)
+        (cond ((null first) list)
+              ((eq first num) last)
+              (t (cons first (removeFirst (cdr list) elemement)))))
 
 
+(print (removeFirst 3 '(3 2 3 4 3 10)))
+;;  (2 3 4 3 10) 
 
+(print (removeFirst 1 '(1 1 1)))
+;;  (1 1) 
+
+(print (removeFirst 1 '(1)))
+;;  NIL
+
+(print "__________________________________________________________________________")
+
+(terpri)
 
 (print "----------ИСПРАВЛЕНИЯ----------")
 (terpri)
