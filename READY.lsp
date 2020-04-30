@@ -136,7 +136,7 @@
 ||#
 
 (defun atomCount(list)
-	(length (mapcar #' (lambda (a) 
+	(length (mapcar (lambda (a) 
         (cond (t (atom a) (list t) nil))) list))
 )
 
