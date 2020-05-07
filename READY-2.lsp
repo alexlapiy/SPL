@@ -43,11 +43,12 @@
 ||#
 
 
-(defun delete_if (pred lst)
-	(mapcan (lambda (x) (if (funcall pred x) nil (list x))) lst)
+(defun delete_if (elem list)
+	(mapcan (lambda (x) (if (funcall elem x) nil (list x))) list)
 ) 
 
 (print (delete_if 'evenp '(1 2 3 4 5 6)))
+(print (delete_if (lambda (x) (> x 0)) '(3 1 2))))
 
 
 
