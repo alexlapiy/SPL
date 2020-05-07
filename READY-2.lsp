@@ -17,7 +17,7 @@
 ||#   
 
 (defun every_ (p list)
-   (null (mapcan #'(lambda (x) (if (funcall p x) nil (list t)) ) list)))   
+   (null (mapcan (lambda (x) (if (funcall p x) nil (list t)) ) list)))   
    
   
 (print (every_ 'evenp '(2 4 6)))  
