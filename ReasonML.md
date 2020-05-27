@@ -1,5 +1,8 @@
 # ReasonML
 #### Reason является лишь синтаксисом, который позволяет вам писать простой, быстрый и качественный безопасный код, используя экосистемы JavaScript и OCaml. OCaml в свою очередь объектно-ориентированный язык функционального программирования общего назначения. Поддерживает функциональную, императивную и объектно-ориентированную парадигмы программирования.
+
+#### [Ссылка](https://reasonml.github.io/docs/ru/what-and-why) на официальную и более подробную документацию
+
 Веб-сайт ReasonML содержит [онлайн-площадку](https://reasonml.github.io/en/try.html?rrjsx=true&reason=C4TwDgpgBMBOHQLxQDIQIYDMoB8oDkB7AEwgAoBLAO2ABoZ4J64EBKAbgChOAbCYKPADGUAM4BXALZRklYBEmsZAPigBvTlDEB3CsCEALKHIVKNWvGiwqoABk24CJcgDd0PcUyh9MdQRQBzA2AlRFU3D2gAajEpMh8QqBiJSTJYQOCOBwBfTmyuXn4oSRAAFUYZByJSMgctAEZaOqcagCZ6avIAFnorTF6MTFYO5zIANgGsSaHh5s6yAGYRmoBWaenhlvIAdnXUQdZWByzOAClRADoeQgCyFLIS8rYOIA) , которая очень полезна для наблюдения за тем, как работает язык и как выглядит код JavaScript и OCaml. Он также может конвертировать из OCaml в ReasonML.
 
 Фича | Reason | Вывод javaScript
